@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-.button{
-   
+@layer utilities {
+    
+}
+ body{
+    @apply bg-[#09090A] text-zinc-100;
 }
